@@ -2,8 +2,6 @@
 
 A simple portfolio template for Computer Science and Cybersecurity majors/professionals built with React! 
 
-### [live preview](https://kylerosario.com/)
-
 [![react portfoiio](src/assets/images/page.gif)](https://kylerosario.com/)
 
 ### Features
