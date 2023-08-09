@@ -1,6 +1,6 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+A simple portfolio template for Computer Science and Cybersecurity majors/professionals built with React! 
 
 ### [live preview](https://kylerosario.com/)
 
