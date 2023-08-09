@@ -4,17 +4,9 @@ A simple portfolio template for developer/designers built with React.
 
 ![react portfoiio](src/assets/images/page.gif)
 
-### Features
-
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
 ### Setup
 
-**Get the code**
+**Install the git repo**
 
 <pre>git clone https://github.com/Duerme/cybersecurity-portfolio-webpage.git</pre>
 
