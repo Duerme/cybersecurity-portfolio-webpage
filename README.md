@@ -2,7 +2,7 @@
 
 A simple portfolio template for developer/designers built with React. 
 
-[![react portfoiio](src/assets/images/page.gif)
+[react portfoiio](src/assets/images/page.gif)
 
 ### Features
 
