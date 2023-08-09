@@ -12,7 +12,6 @@ A simple portfolio template for Computer Science and Cybersecurity majors/profes
 - Multi-Page Layout
 - Contact Form With EmailJs
 - React-Bootstrap
-- Edit Content From One Place
 
 ### Setup
 
