@@ -1,0 +1,110 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.section-title {
+    font-size: 45px;
+}
+
+
+/*! CSS Used keyframes */
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+.skill-card {
+    width: 150px; /* Adjust the width based on your desired size */
+    height: 80px; /* Set a fixed height to make all cards the same size */
+    margin: 10px; /* Add some margin between the cards */
+    border: 1px solid #00000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(101, 255, 114, 0.863);
+    padding: 15px;
+    background-color: #1efc43cb;
+    position: relative; /* Add relative positioning for the shadow illusion */
+    transform: perspective(1px) translateZ(0); /* Add transform for hovering effect */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+  
+    display: flex; /* Use flex to align items */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+  
+    /* Additional styling for the text */
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgb(123, 248, 112);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    flex: 1; /* Allow the font size to shrink if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax width as needed */
+    gap: 10px; /* Add some gap between the cards */
+  }
+  
