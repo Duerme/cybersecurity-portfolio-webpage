@@ -2,9 +2,7 @@
 
 A simple portfolio template for developer/designers built with React. 
 
-### [live preview](https://kylerosario.com/)
-
-[![react portfoiio](src/assets/images/page.gif)](https://kylerosario.com/)
+[![react portfoiio](src/assets/images/page.gif)
 
 ### Features
 
